@@ -12,7 +12,7 @@ fn main() {
     // Read user input for conversion choice
     let mut choice = String::new();
     io::stdin().read_line(&mut choice).expect("Failed to read line");
-    // Parse the input into an unsigned 32-bit integer
+    // Parse the input into an unsigned 32-bit integerr
     let choice: u32 = match choice.trim().parse() {
         Ok(num) => num,
         Err(_) => {
